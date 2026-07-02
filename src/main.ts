@@ -17,13 +17,13 @@ async function bootstrap() {
 
   const document = SwaggerModule.createDocument(app, config);
 
-  SwaggerModule.setup('api', app, document);
+  SwaggerModule.setup('api-docs', app, document);
 
   const host = configService.get<string>(`HOST`);
   const port = configService.get<number>('PORT');
   await app.listen(process.env.PORT ?? 3000);
 
   console.log(`Server is running at http://${host}:${port}`);
-  console.log(`Swagger: http://${host}:${port}/api`);
+  console.log(`Swagger: http://${host}:${port}/api-docs`);
 }
 bootstrap();
