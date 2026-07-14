@@ -57,7 +57,7 @@ DB_PASSWORD=
 DB_DATABASE=learn_pj2_v1
 
 REDIS_HOST=redis
-REDIS_PORT=6379
+REDIS_PORT=6380
 
 JWT_ACCESS_SECRET=your_jwt_access_secret
 ```
