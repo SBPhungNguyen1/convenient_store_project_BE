@@ -62,6 +62,12 @@ REDIS_PORT=6380
 JWT_ACCESS_SECRET=your_jwt_access_secret
 ```
 
+## Seed data
+
+```bash
+pnpm seed
+```
+
 ## Chạy dự án
 
 ```bash
@@ -72,6 +78,7 @@ Mặc định ứng dụng chạy tại:
 
 - API: http://localhost:3001
 - Swagger: http://localhost:3001/api-docs
+
 
 ## Build
 
@@ -141,3 +148,6 @@ Business logic được xử lý trong **Service**, Controller chỉ tiếp nh�
 - Swagger
 - class-validator
 - pnpm
+
+## Tham khảo thêm về cách chạy dự án:
+[Notion Docs](https://www.notion.so/Docs-for-convenient_store_project_BE-3a63a01f815280eb9d9cc52ceb7e4f61?source=copy_link)
